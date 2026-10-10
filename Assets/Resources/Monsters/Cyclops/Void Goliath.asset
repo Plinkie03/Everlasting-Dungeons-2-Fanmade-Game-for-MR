@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b624ed6119144c544956d2cea3301ebc, type: 3}
+  m_Name: Void Goliath
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.MonsterSO
+  uuid: f8d3cfd1-d86e-42ed-83c4-0e714a8363f7
+  name: Void Goliath
+  classType: 1
+  animations: {fileID: 11400000, guid: fa2b7168f3b4fe04fb609d407c9337a9, type: 2}
+  textOffset: 1
+  floorLevel: 34
+  spells:
+  - {fileID: 11400000, guid: 0b110eb7469f37c4aaa45b1c6a1a7851, type: 2}
+  - {fileID: 11400000, guid: 668c73a31c2240b4089e7350be308103, type: 2}
+  - {fileID: 11400000, guid: 4fbc8ba153672d040bacd546e9b4b87e, type: 2}
+  scale: 1.6
+  boss: 0
+  rewards:
+    xp: 26500
+    money: 7000
+    gems: 1000
+  drops: []
+  dropCollection:
+  - {fileID: 11400000, guid: 9edb46b554dd626468914395a569bc4b, type: 2}
+  stats:
+  - type: 0
+    modifier: 0
+    value: 55000
+  - type: 16
+    modifier: 0
+    value: 700
+  - type: 9
+    modifier: 0
+    value: 1500
+  - type: 11
+    modifier: 0
+    value: 1500
+  - type: 10
+    modifier: 0
+    value: 1500
+  - type: 5
+    modifier: 0
+    value: 4.4
+  - type: 3
+    modifier: 0
+    value: 1

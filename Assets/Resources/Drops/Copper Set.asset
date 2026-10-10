@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e27476aa026fea4e8bddcf349ad6999, type: 3}
+  m_Name: Copper Set
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.CollectionItemDropSO
+  uuid: d55d7373-905c-451c-8775-5d80fb91b79d
+  name: Copper Set
+  drops:
+  - item: {fileID: 11400000, guid: f1c4ec87203f7204daa0a6e2c3c81497, type: 2}
+    chance: 0.05
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 9b2d7719961a9734c823c9eb6a3279b9, type: 2}
+    chance: 0.05
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 8897951850fa2ec47a4bfb5873aa13a0, type: 2}
+    chance: 0.05
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: bf4c27b5db3dd7547b6f50d34b7a58f9, type: 2}
+    chance: 0.05
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: af6ce14f36528d044a32c195e7883b09, type: 2}
+    chance: 0.05
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 8b2c33aa1ef77054e85986c407b60a43, type: 2}
+    chance: 0.05
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: bde3736e0d42a6a4190e659af9d197e8, type: 2}
+    chance: 0.05
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 6c09ac940eff81547940a4dc4df2f2a1, type: 2}
+    chance: 0.05
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 8c8ddcae47d9b3d449bed09648aaba25, type: 2}
+    chance: 0.05
+    minAmount: 1
+    maxAmount: 1

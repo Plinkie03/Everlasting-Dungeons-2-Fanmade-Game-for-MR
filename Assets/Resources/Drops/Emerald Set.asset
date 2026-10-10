@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e27476aa026fea4e8bddcf349ad6999, type: 3}
+  m_Name: Emerald Set
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.CollectionItemDropSO
+  uuid: 93ce7e27-e336-4c28-bf96-4c112bf90b2b
+  name: Emerald Set
+  drops:
+  - item: {fileID: 11400000, guid: c2040deb8227c9a4687a7810eaed134c, type: 2}
+    chance: 0.005
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 00350ef2d85642f4e81c9484b074e261, type: 2}
+    chance: 0.005
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 4e79f6cb16f0dbe45aa1b6e147ddde70, type: 2}
+    chance: 0.005
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: c97937a23c317124fb3225f273166a6e, type: 2}
+    chance: 0.005
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 88b9a2bac7d67a84fb79f4e6a542ad36, type: 2}
+    chance: 0.005
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 16f38c13b13b6894e97594f39bbd05bc, type: 2}
+    chance: 0.005
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 4a95d0db5f1d1a549b54ae2055782c1c, type: 2}
+    chance: 0.005
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 105a94a9d82b2cc40b88b05b1442f5a7, type: 2}
+    chance: 0.005
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 45086ec6849de4446b721f6d00800279, type: 2}
+    chance: 0.005
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 284e82525cb037b4fa70ffba99ad12e4, type: 2}
+    chance: 0.005
+    minAmount: 1
+    maxAmount: 1

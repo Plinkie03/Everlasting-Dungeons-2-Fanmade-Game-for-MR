@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e27476aa026fea4e8bddcf349ad6999, type: 3}
+  m_Name: Dark Set
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.CollectionItemDropSO
+  uuid: 31a7edf6-808a-4a58-9f38-4e208b2acd45
+  name: Dark Set
+  drops:
+  - item: {fileID: 11400000, guid: 8da9974510cf4b44a8495a476febb757, type: 2}
+    chance: 0.01
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: f8267b54dd90d5d4d820266e10a0fb0c, type: 2}
+    chance: 0.01
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: f5eaf361301985142ad9877713f9227c, type: 2}
+    chance: 0.01
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 73296d468852836438a966380915b987, type: 2}
+    chance: 0.01
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 4f479af76f2bcbb4d99a9f4c16e97ca5, type: 2}
+    chance: 0.01
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: c3172c9bc90ae584c82dad3b7359c58d, type: 2}
+    chance: 0.01
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 008f0f9b62b2f25418d41732cfdfe64b, type: 2}
+    chance: 0.01
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 8f4d060dff992b14691a3e65e704e90a, type: 2}
+    chance: 0.01
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 4b7f9de3e7408bd4aa5ffb3d2977771d, type: 2}
+    chance: 0.01
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 715451f35aa0b924aba5c41790828485, type: 2}
+    chance: 0.01
+    minAmount: 1
+    maxAmount: 1

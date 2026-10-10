@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Priestess
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: dada5289-4e53-4128-bfb4-e9c938c73a5c
+  name: Priestess
+  idleUp: {fileID: 7400000, guid: 34b318329e55dd34d89dc405e374aca3, type: 2}
+  idleDown: {fileID: 7400000, guid: e610a4b1dfbd20e46a81c1c5e5566931, type: 2}
+  idleLeft: {fileID: 7400000, guid: 9781c2d98489e364292e7f78338f0aad, type: 2}
+  idleRight: {fileID: 7400000, guid: eaf79e21362335447aca5650fec83318, type: 2}
+  moveUp: {fileID: 7400000, guid: 03fa0a52ae16b2c449a998afb5f4cecf, type: 2}
+  moveDown: {fileID: 7400000, guid: ff891cf2d935c144583557e4454ca9f7, type: 2}
+  moveLeft: {fileID: 7400000, guid: d09af728091ddf34db9dce33eaa8d09a, type: 2}
+  moveRight: {fileID: 7400000, guid: 4e309c2bdcb284340861e86f67094312, type: 2}
+  dead: {fileID: 1828303211, guid: a07637db7816da942aa20169051421d7, type: 3}

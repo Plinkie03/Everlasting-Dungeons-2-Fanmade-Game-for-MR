@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a0b82ca1c993d47b349875f528b881, type: 3}
+  m_Name: Health Flask
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.Consumables.PotionItemSO
+  uuid: 813794d5-688e-462e-8630-ee97853cef8e
+  name: Health Flask
+  sprite: {fileID: -1530763246, guid: a07637db7816da942aa20169051421d7, type: 3}
+  description: A flask that heals more HP
+  price: 3000
+  consume: 1
+  cooldown: 4500
+  manaRegen: 0
+  healthRegen: 100000

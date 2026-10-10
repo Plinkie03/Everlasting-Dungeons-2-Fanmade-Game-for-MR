@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b624ed6119144c544956d2cea3301ebc, type: 3}
+  m_Name: Mana Fury
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.MonsterSO
+  uuid: 18b9d9b8-80f8-484c-9490-174585486590
+  name: Mana Fury
+  classType: 1
+  animations: {fileID: 11400000, guid: 60ab0f2c7ba45ed42859451d2e17e2e8, type: 2}
+  textOffset: 1
+  floorLevel: 24
+  spells:
+  - {fileID: 11400000, guid: 4fbc8ba153672d040bacd546e9b4b87e, type: 2}
+  - {fileID: 11400000, guid: 668c73a31c2240b4089e7350be308103, type: 2}
+  - {fileID: 11400000, guid: 0b110eb7469f37c4aaa45b1c6a1a7851, type: 2}
+  scale: 1.45
+  boss: 0
+  rewards:
+    xp: 6500
+    money: 1900
+    gems: 310
+  drops: []
+  dropCollection:
+  - {fileID: 11400000, guid: 0578bbbc1ccaa5245a298579f59a5dd0, type: 2}
+  stats:
+  - type: 0
+    modifier: 0
+    value: 7200
+  - type: 16
+    modifier: 0
+    value: 320
+  - type: 9
+    modifier: 0
+    value: 600
+  - type: 11
+    modifier: 0
+    value: 600
+  - type: 10
+    modifier: 0
+    value: 600
+  - type: 5
+    modifier: 0
+    value: 3.25
+  - type: 3
+    modifier: 0
+    value: 1

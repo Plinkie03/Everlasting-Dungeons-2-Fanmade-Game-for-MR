@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Shadow
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: 63588e57-7d9a-4cec-9579-8646338384c5
+  name: Shadow
+  idleUp: {fileID: 7400000, guid: c98169b74121d234db4789f0c1d68d9f, type: 2}
+  idleDown: {fileID: 7400000, guid: 4f65d40ef3a8cfd49922e6baa70af582, type: 2}
+  idleLeft: {fileID: 7400000, guid: 5eb35f51b69e38d4c9323b3ff0a854c6, type: 2}
+  idleRight: {fileID: 7400000, guid: 06a8d111f1f625846bbd9d7ecd54883a, type: 2}
+  moveUp: {fileID: 7400000, guid: d796174358544564085729371555c80c, type: 2}
+  moveDown: {fileID: 7400000, guid: 8ffa71aef4a7ba7458d9da9a8b0bdca5, type: 2}
+  moveLeft: {fileID: 7400000, guid: 0664f650a6319f1438ce67537bdb4ea6, type: 2}
+  moveRight: {fileID: 7400000, guid: facf3e0d95643e541b8c6c5cf1311ae1, type: 2}
+  dead: {fileID: 1811741741, guid: a07637db7816da942aa20169051421d7, type: 3}

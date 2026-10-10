@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Mana Spider
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: 47ededef-63fd-4aa9-9cd9-c0b8f575e386
+  name: Mana Spider
+  idleUp: {fileID: 7400000, guid: 70ac7535fd0cc4e4f913571497fda467, type: 2}
+  idleDown: {fileID: 7400000, guid: 71417f2f55529654b850247b3f453d4a, type: 2}
+  idleLeft: {fileID: 7400000, guid: faac9f16cf16fe2419bc551d2516e658, type: 2}
+  idleRight: {fileID: 7400000, guid: 0804a8db641f63a4a83c84e9482d2148, type: 2}
+  moveUp: {fileID: 7400000, guid: ff59b1744e193d14183b52b795a01368, type: 2}
+  moveDown: {fileID: 7400000, guid: 7cda5621a3d0b11499f04ce3395b51f8, type: 2}
+  moveLeft: {fileID: 7400000, guid: 2c67ee58d49be4348b5ce7308f568765, type: 2}
+  moveRight: {fileID: 7400000, guid: 549b8f6079a2a064b9185255467e438b, type: 2}
+  dead: {fileID: -17860428, guid: a07637db7816da942aa20169051421d7, type: 3}

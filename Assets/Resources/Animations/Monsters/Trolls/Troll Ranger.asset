@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Troll Ranger
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: 9d110f01-6d8b-4794-97bc-b982d23bc4b4
+  name: Troll Ranger
+  idleUp: {fileID: 7400000, guid: ddebfc2378d29614d99506bcc18a5014, type: 2}
+  idleDown: {fileID: 7400000, guid: b5df404b9c5074b4386f1c874b2cba10, type: 2}
+  idleLeft: {fileID: 7400000, guid: 3a7dbe0cb46f49f45897dad19e87375f, type: 2}
+  idleRight: {fileID: 7400000, guid: 93b0b33b239c69d42a8bd253fdfcf1af, type: 2}
+  moveUp: {fileID: 7400000, guid: 6c36ead88fc3f9044b3cfe05075537d2, type: 2}
+  moveDown: {fileID: 7400000, guid: 57ecdb847cc6f73468bf523adc2efbe4, type: 2}
+  moveLeft: {fileID: 7400000, guid: 39c33bc7aae1298479089b248f2b7ab8, type: 2}
+  moveRight: {fileID: 7400000, guid: da2fe2c7842ea984f9917eab56c28faa, type: 2}
+  dead: {fileID: -932153569, guid: a07637db7816da942aa20169051421d7, type: 3}

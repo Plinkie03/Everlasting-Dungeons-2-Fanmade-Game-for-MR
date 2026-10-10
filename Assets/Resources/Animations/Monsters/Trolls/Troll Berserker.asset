@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Troll Berserker
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: 25c51b6c-af43-400b-9ac7-2c56b450ae1e
+  name: Troll Berserker
+  idleUp: {fileID: 7400000, guid: 05b6c9436a3126f458e105c5cbec068e, type: 2}
+  idleDown: {fileID: 7400000, guid: f0910f713a57fc549a62e9e7f7af903d, type: 2}
+  idleLeft: {fileID: 7400000, guid: d7aff6947884eb541b59c378e393545e, type: 2}
+  idleRight: {fileID: 7400000, guid: b5c44ec9193653546b0856b52aecab9a, type: 2}
+  moveUp: {fileID: 7400000, guid: 76747e7524c493949a76046a432c32eb, type: 2}
+  moveDown: {fileID: 7400000, guid: 758ec595c55913e4ea735c1b3889593f, type: 2}
+  moveLeft: {fileID: 7400000, guid: bf65f0c06e0c0224dbae93357dcf939b, type: 2}
+  moveRight: {fileID: 7400000, guid: 5f9a68e533f31424f9e1809b8f096421, type: 2}
+  dead: {fileID: 1700958727, guid: a07637db7816da942aa20169051421d7, type: 3}

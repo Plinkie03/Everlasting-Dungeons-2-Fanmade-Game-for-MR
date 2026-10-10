@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: 672d390b-41d8-42f7-9c22-04162619c831
+  name: Player Outfit
+  idleUp: {fileID: 7400000, guid: 59efa4ba65f12b04891a499a9534210a, type: 2}
+  idleDown: {fileID: 7400000, guid: f756fa783769e794d80134583fac39dd, type: 2}
+  idleLeft: {fileID: 7400000, guid: b315cb13600d94e47933d7a895f408ce, type: 2}
+  idleRight: {fileID: 7400000, guid: f6a9ec6aecf282f4987bfdb661f965fb, type: 2}
+  moveUp: {fileID: 7400000, guid: f4dd6e69f582bee478be49f605214fec, type: 2}
+  moveDown: {fileID: 7400000, guid: dcb844caf9b14ea43983b7370179ac37, type: 2}
+  moveLeft: {fileID: 7400000, guid: b00c4e0350931a94fbaf997775f160cb, type: 2}
+  moveRight: {fileID: 7400000, guid: 638cc8893a0ee8b498b48cbf873a3ca3, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Orc Worker
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: c24a81f5-7aa2-48f5-a774-8396f84e336c
+  name: Orc Worker
+  idleUp: {fileID: 7400000, guid: cfd54b7eb2aa157429160150ef69b852, type: 2}
+  idleDown: {fileID: 7400000, guid: d1f4dc5f898cf754590cc14fdf8d359a, type: 2}
+  idleLeft: {fileID: 7400000, guid: a0c3a2eb30141dc4da076bf513948a05, type: 2}
+  idleRight: {fileID: 7400000, guid: d29e58bfeb32135429b442257de6c0fe, type: 2}
+  moveUp: {fileID: 7400000, guid: a81ed3cf484a15644bbb969d157e46f2, type: 2}
+  moveDown: {fileID: 7400000, guid: 708743e83fb139848981b1b2780cac87, type: 2}
+  moveLeft: {fileID: 7400000, guid: d876f4c71679ce743b2b056729c9efae, type: 2}
+  moveRight: {fileID: 7400000, guid: 09e47df3730395b498b9a6744b2bd3c8, type: 2}
+  dead: {fileID: -75247068, guid: a07637db7816da942aa20169051421d7, type: 3}

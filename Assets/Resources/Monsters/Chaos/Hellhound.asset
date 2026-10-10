@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b624ed6119144c544956d2cea3301ebc, type: 3}
+  m_Name: Hellhound
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.MonsterSO
+  uuid: 924a26dc-b22f-4a92-9b9b-872d1c70351b
+  name: Hellhound
+  classType: 0
+  animations: {fileID: 11400000, guid: 7709cd61cb19a3947bec496d79b9b8f2, type: 2}
+  textOffset: 1
+  floorLevel: 99
+  spells:
+  - {fileID: 11400000, guid: 0b110eb7469f37c4aaa45b1c6a1a7851, type: 2}
+  - {fileID: 11400000, guid: 4fbc8ba153672d040bacd546e9b4b87e, type: 2}
+  - {fileID: 11400000, guid: f7dbf8e183bd33b41a009c4667e116e9, type: 2}
+  scale: 3.75
+  boss: 1
+  color: {r: 1, g: 1, b: 1, a: 1}
+  rewards:
+    xp: 125000000
+    money: 12000000
+    gems: 1500000
+  drops: []
+  dropCollection:
+  - {fileID: 11400000, guid: 08a454cce3e5698459a29813eb6562a7, type: 2}
+  stats:
+  - type: 0
+    modifier: 0
+    value: 150000000
+  - type: 15
+    modifier: 1
+    value: 0.66
+  - type: 9
+    modifier: 0
+    value: 1250000
+  - type: 11
+    modifier: 0
+    value: 1250000
+  - type: 10
+    modifier: 0
+    value: 1250000
+  - type: 5
+    modifier: 0
+    value: 11
+  - type: 3
+    modifier: 0
+    value: 1

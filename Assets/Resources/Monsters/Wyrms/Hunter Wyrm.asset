@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b624ed6119144c544956d2cea3301ebc, type: 3}
+  m_Name: Hunter Wyrm
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.MonsterSO
+  uuid: 312e2d52-07a0-4584-9435-be194bac206d
+  name: Hunter Wyrm
+  classType: 2
+  animations: {fileID: 11400000, guid: 0abe191644370f042bc694282c5a146e, type: 2}
+  textOffset: 1
+  floorLevel: 73
+  spells:
+  - {fileID: 11400000, guid: 0b110eb7469f37c4aaa45b1c6a1a7851, type: 2}
+  - {fileID: 11400000, guid: 4fbc8ba153672d040bacd546e9b4b87e, type: 2}
+  - {fileID: 11400000, guid: f7dbf8e183bd33b41a009c4667e116e9, type: 2}
+  scale: 2
+  boss: 0
+  color: {r: 0, g: 1, b: 0, a: 1}
+  rewards:
+    xp: 5000000
+    money: 550000
+    gems: 52000
+  drops: []
+  dropCollection:
+  - {fileID: 11400000, guid: 158be34e01cd4ae4782461a3ee1a3fff, type: 2}
+  stats:
+  - type: 0
+    modifier: 0
+    value: 11500000
+  - type: 16
+    modifier: 0
+    value: 40000
+  - type: 9
+    modifier: 0
+    value: 75000
+  - type: 11
+    modifier: 0
+    value: 75000
+  - type: 10
+    modifier: 0
+    value: 75000
+  - type: 5
+    modifier: 0
+    value: 8
+  - type: 3
+    modifier: 0
+    value: 1

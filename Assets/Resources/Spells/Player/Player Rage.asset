@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de180013cf5830c49ba4bdc71e02d851, type: 3}
+  m_Name: Player Rage
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.SpellSO
+  uuid: 2be4e2e3-9f84-4f39-92c8-f8cc331ecca6
+  name: Rage
+  sprite: {fileID: 208413854, guid: a07637db7816da942aa20169051421d7, type: 3}
+  description: Releases all your inner rage around you that deals massive damage,
+    it can not hurt you...
+  aimTarget: 0
+  useShape: 1
+  chance: 0
+  shape: 6
+  cooldown: 4000
+  manaCost: 100
+  damageMultiplier: 2
+  classType: 0
+  canPlayerUse: 1
+  unlockedByDefault: 1

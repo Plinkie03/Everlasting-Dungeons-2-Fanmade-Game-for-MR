@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939cbf25953ff594db3f1a359cd41082, type: 3}
+  m_Name: Dark Tome
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.GearItemSO
+  uuid: 52af420e-2ba9-439e-ba0e-4805f8bd6d57
+  name: Dark Tome
+  sprite: {fileID: -1688904424, guid: a07637db7816da942aa20169051421d7, type: 3}
+  description: A tome for mages to do higher damage, this one is decent
+  price: 50000
+  gearType: 5
+  weaponType: 0
+  statVariance:
+    minAbsolute: 45
+    maxAbsolute: 65
+    minMultiplier: 0.4
+    maxMultiplier: 0.6
+  defaultStats:
+  - type: 10
+    modifier: 0
+    value: 600

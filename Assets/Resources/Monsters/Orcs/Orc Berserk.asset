@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b624ed6119144c544956d2cea3301ebc, type: 3}
+  m_Name: Orc Berserk
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.MonsterSO
+  uuid: c7537a91-2270-433e-a775-46f07122aab1
+  name: Orc Berserk
+  classType: 0
+  animations: {fileID: 11400000, guid: 25f4cf1e1e5d0f84ab928fa0792f3ac3, type: 2}
+  textOffset: 1
+  floorLevel: 45
+  spells:
+  - {fileID: 11400000, guid: 668c73a31c2240b4089e7350be308103, type: 2}
+  - {fileID: 11400000, guid: 0b110eb7469f37c4aaa45b1c6a1a7851, type: 2}
+  - {fileID: 11400000, guid: 4fbc8ba153672d040bacd546e9b4b87e, type: 2}
+  scale: 3
+  boss: 1
+  rewards:
+    xp: 1000000
+    money: 230000
+    gems: 20000
+  drops: []
+  dropCollection:
+  - {fileID: 11400000, guid: 578ba29f777d3ef41983a71b2252c921, type: 2}
+  stats:
+  - type: 0
+    modifier: 0
+    value: 1200000
+  - type: 15
+    modifier: 1
+    value: 0.6
+  - type: 9
+    modifier: 0
+    value: 12000
+  - type: 11
+    modifier: 0
+    value: 12000
+  - type: 10
+    modifier: 0
+    value: 12000
+  - type: 5
+    modifier: 0
+    value: 5
+  - type: 3
+    modifier: 0
+    value: 1

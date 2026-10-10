@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de180013cf5830c49ba4bdc71e02d851, type: 3}
+  m_Name: Beam
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.SpellSO
+  uuid: 42d94431-7930-440b-a48b-8161f26fb379
+  name: Beam
+  sprite: {fileID: 0}
+  description: 
+  aimTarget: 0
+  useShape: 1
+  chance: 0.005
+  shape: 3
+  cooldown: 5000
+  manaCost: 0
+  damageMultiplier: 6
+  classType: 0
+  canPlayerUse: 0
+  unlockedByDefault: 0

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b624ed6119144c544956d2cea3301ebc, type: 3}
+  m_Name: Fire Slime
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.MonsterSO
+  uuid: 7e9e6a26-b76b-4e67-9374-696b02bc0218
+  name: Fire Slime
+  classType: 1
+  animations: {fileID: 11400000, guid: d32e67322a1472f45941a5303abc1da5, type: 2}
+  textOffset: 1
+  floorLevel: 6
+  spells:
+  - {fileID: 11400000, guid: 3a7076f4b51aad04b822f0b797f38df1, type: 2}
+  scale: 1.15
+  boss: 0
+  rewards:
+    xp: 300
+    money: 90
+    gems: 20
+  drops: []
+  dropCollection:
+  - {fileID: 11400000, guid: 69267c34b846bdd4181590c97969cc4d, type: 2}
+  stats:
+  - type: 0
+    modifier: 0
+    value: 175
+  - type: 16
+    modifier: 0
+    value: 40
+  - type: 9
+    modifier: 0
+    value: 24
+  - type: 11
+    modifier: 0
+    value: 24
+  - type: 10
+    modifier: 0
+    value: 24
+  - type: 5
+    modifier: 0
+    value: 1.1
+  - type: 3
+    modifier: 0
+    value: 1

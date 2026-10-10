@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Astral Trueshot
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: c24a81f5-7aa2-48f5-a774-8396f84e336c
+  name: Astral Trueshot
+  idleUp: {fileID: 7400000, guid: b27abf4cb2ff34349ab6882a40ce3fd2, type: 2}
+  idleDown: {fileID: 7400000, guid: 9731b14941250354494b9a791c0355e1, type: 2}
+  idleLeft: {fileID: 7400000, guid: 3a1c6120f69d4284998503fad81cd903, type: 2}
+  idleRight: {fileID: 7400000, guid: d9275e121336d1745bbddd4979299d14, type: 2}
+  moveUp: {fileID: 7400000, guid: 44846c958ae7e924cb8cd9df5b15319a, type: 2}
+  moveDown: {fileID: 7400000, guid: e2709c1d5200c5d45bbccf676df4de4b, type: 2}
+  moveLeft: {fileID: 7400000, guid: d9b2a8eb94631084095c6e162ec12c3d, type: 2}
+  moveRight: {fileID: 7400000, guid: 3f55f50a66cba114d9f59d934b2f15fa, type: 2}
+  dead: {fileID: -478002910, guid: a07637db7816da942aa20169051421d7, type: 3}

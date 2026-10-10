@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Void Goliath
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: 6b3ce479-487f-4620-bff4-21c86d9078c0
+  name: Void Goliath
+  idleUp: {fileID: 7400000, guid: ef2aaeb3d8f7ec14496c2179aac8939c, type: 2}
+  idleDown: {fileID: 7400000, guid: 0c2c34b5bbf2e0e46a3b41893e8fbdc0, type: 2}
+  idleLeft: {fileID: 7400000, guid: eee925d46012a5e40babf23d33d88b3e, type: 2}
+  idleRight: {fileID: 7400000, guid: 8843201ee9e651147af9006d4ef49b30, type: 2}
+  moveUp: {fileID: 7400000, guid: ca166c19cb79f2740a17298d17802ea2, type: 2}
+  moveDown: {fileID: 7400000, guid: cb88dc2a38541ff43a1e2babc99a2a48, type: 2}
+  moveLeft: {fileID: 7400000, guid: 100182a06d98cd843958fa72c79d07e5, type: 2}
+  moveRight: {fileID: 7400000, guid: e874dcca8ff6f7a4586bbc879f81626e, type: 2}
+  dead: {fileID: 432748114, guid: a07637db7816da942aa20169051421d7, type: 3}

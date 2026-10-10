@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Fire Wyrm
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: 9c030613-10e5-4667-9c14-18cf90066713
+  name: Fire Wyrm
+  idleUp: {fileID: 7400000, guid: 5bb053eb939e09448b7b8af986e53902, type: 2}
+  idleDown: {fileID: 7400000, guid: 36fcc21a656835a45807be9c2039436a, type: 2}
+  idleLeft: {fileID: 7400000, guid: a55c65b375e453a449599afe050215b5, type: 2}
+  idleRight: {fileID: 7400000, guid: 7d77540126eacf44c805caa78ceb310d, type: 2}
+  moveUp: {fileID: 7400000, guid: e56eeb08e8cb95f418a185a3ce2894f2, type: 2}
+  moveDown: {fileID: 7400000, guid: f3567a92793cd5042b4bc88c87db5668, type: 2}
+  moveLeft: {fileID: 7400000, guid: 0a8681e5f1bcb3e44bdede5ea0012317, type: 2}
+  moveRight: {fileID: 7400000, guid: 962de55f5305676419c43a6282a41c55, type: 2}
+  dead: {fileID: -83903753, guid: a07637db7816da942aa20169051421d7, type: 3}

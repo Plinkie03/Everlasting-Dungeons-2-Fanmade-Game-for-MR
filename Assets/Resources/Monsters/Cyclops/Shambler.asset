@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b624ed6119144c544956d2cea3301ebc, type: 3}
+  m_Name: Shambler
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.MonsterSO
+  uuid: 7a382192-481e-43fe-be9d-72726da5c53f
+  name: Shambler
+  classType: 0
+  animations: {fileID: 11400000, guid: dad294fc9dfddaa4c8decfc7704f0fef, type: 2}
+  textOffset: 1
+  floorLevel: 32
+  spells:
+  - {fileID: 11400000, guid: 0b110eb7469f37c4aaa45b1c6a1a7851, type: 2}
+  - {fileID: 11400000, guid: 668c73a31c2240b4089e7350be308103, type: 2}
+  scale: 1.6
+  boss: 0
+  rewards:
+    xp: 18000
+    money: 4500
+    gems: 600
+  drops: []
+  dropCollection:
+  - {fileID: 11400000, guid: 9edb46b554dd626468914395a569bc4b, type: 2}
+  stats:
+  - type: 0
+    modifier: 0
+    value: 40000
+  - type: 16
+    modifier: 0
+    value: 500
+  - type: 9
+    modifier: 0
+    value: 1100
+  - type: 11
+    modifier: 0
+    value: 1100
+  - type: 10
+    modifier: 0
+    value: 1100
+  - type: 5
+    modifier: 0
+    value: 4
+  - type: 3
+    modifier: 0
+    value: 1

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Orc Beserk
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: c24a81f5-7aa2-48f5-a774-8396f84e336c
+  name: Orc Beserk
+  idleUp: {fileID: 7400000, guid: 45b1bbd12d769b44f8b6f0a53ec3bc4e, type: 2}
+  idleDown: {fileID: 7400000, guid: dc970e1598d10824f8e57c8eaa7c181a, type: 2}
+  idleLeft: {fileID: 7400000, guid: 87e0ca3a064c1f048a80644604055139, type: 2}
+  idleRight: {fileID: 7400000, guid: 96e80cf4b6c785b4980bfa59126c51df, type: 2}
+  moveUp: {fileID: 7400000, guid: fdb768ddb6acb7f43896f41030d1a9b8, type: 2}
+  moveDown: {fileID: 7400000, guid: 8d3ae04e820bad249b42c5af3e3ab6dc, type: 2}
+  moveLeft: {fileID: 7400000, guid: eeee5284320d6e64f97f2e49279cf682, type: 2}
+  moveRight: {fileID: 7400000, guid: 3a5e102a46177ef439af231c1dfb4f22, type: 2}
+  dead: {fileID: -41546845, guid: a07637db7816da942aa20169051421d7, type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a0b82ca1c993d47b349875f528b881, type: 3}
+  m_Name: Mana Amphora
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.Consumables.PotionItemSO
+  uuid: b36db63e-15e7-4a93-8b4d-c7659eefad11
+  name: Mana Amphora
+  sprite: {fileID: -288161881, guid: a07637db7816da942aa20169051421d7, type: 3}
+  description: Amphoras that heal massive MP
+  price: 20000
+  consume: 1
+  cooldown: 9000
+  manaRegen: 50000
+  healthRegen: 0

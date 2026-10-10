@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e27476aa026fea4e8bddcf349ad6999, type: 3}
+  m_Name: Iron Set
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.CollectionItemDropSO
+  uuid: 3d975e89-9445-4332-8042-69dcf2fe6431
+  name: Iron Set
+  drops:
+  - item: {fileID: 11400000, guid: c719599c40a814144a0f01a2c9e45dc6, type: 2}
+    chance: 0.2
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: f875a83eba495e44783cf80a268b4a38, type: 2}
+    chance: 0.2
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 2b4f680cdf51d24499cdb6a84802b73f, type: 2}
+    chance: 0.2
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: d5849eddbd5a7f843a75da708f103af7, type: 2}
+    chance: 0.2
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: a84889e83be8c53439c49c900404975d, type: 2}
+    chance: 0.2
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 7d335e281c92eb246ae920f263bc8800, type: 2}
+    chance: 0.2
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 2f2e80cb7d143934fac52de871d2a9d8, type: 2}
+    chance: 0.2
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 99390b2ffef89274a9d1a1df5c04ea9f, type: 2}
+    chance: 0.2
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: b7c29f5f7b1e6cb4abb1b63ae4f0579a, type: 2}
+    chance: 0.2
+    minAmount: 1
+    maxAmount: 1

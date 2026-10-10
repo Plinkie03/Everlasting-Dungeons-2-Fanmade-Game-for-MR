@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b624ed6119144c544956d2cea3301ebc, type: 3}
+  m_Name: Orc Worker
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.MonsterSO
+  uuid: c2266712-46c9-4430-a6f1-96b4aaae8cf1
+  name: Orc Worker
+  classType: 2
+  animations: {fileID: 11400000, guid: 7437078cbd3d0b54fab9a53766c9f065, type: 2}
+  textOffset: 1
+  floorLevel: 43
+  spells:
+  - {fileID: 11400000, guid: 0b110eb7469f37c4aaa45b1c6a1a7851, type: 2}
+  - {fileID: 11400000, guid: f7dbf8e183bd33b41a009c4667e116e9, type: 2}
+  - {fileID: 11400000, guid: 4fbc8ba153672d040bacd546e9b4b87e, type: 2}
+  scale: 1.75
+  boss: 0
+  rewards:
+    xp: 90000
+    money: 19000
+    gems: 2900
+  drops: []
+  dropCollection:
+  - {fileID: 11400000, guid: 578ba29f777d3ef41983a71b2252c921, type: 2}
+  stats:
+  - type: 0
+    modifier: 0
+    value: 240000
+  - type: 16
+    modifier: 0
+    value: 3000
+  - type: 9
+    modifier: 0
+    value: 4500
+  - type: 11
+    modifier: 0
+    value: 4500
+  - type: 10
+    modifier: 0
+    value: 4500
+  - type: 5
+    modifier: 0
+    value: 5
+  - type: 3
+    modifier: 0
+    value: 1

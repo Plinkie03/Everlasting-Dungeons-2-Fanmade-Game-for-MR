@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e27476aa026fea4e8bddcf349ad6999, type: 3}
+  m_Name: Granite Set
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.CollectionItemDropSO
+  uuid: 1f542ba5-920c-4f3b-abd0-8112333d958e
+  name: Granite Set
+  drops:
+  - item: {fileID: 11400000, guid: d465dca4adbabf245bc11053e76dabc8, type: 2}
+    chance: 0.0025
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 2747c5e3b766af14b9a3d286ebefd551, type: 2}
+    chance: 0.0025
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 7fca3c87c319a3e4d83bf94723d8eb78, type: 2}
+    chance: 0.0025
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: a42b078cf6fd51944acbd486c583d0f4, type: 2}
+    chance: 0.0025
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 9dc1fde85d792e648a84a478705a547b, type: 2}
+    chance: 0.0025
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 2e43f2678bbe5464ca92ae9da378ef54, type: 2}
+    chance: 0.0025
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 20f57954e3eed9146b9cf4919e65e3db, type: 2}
+    chance: 0.0025
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 8f7a8018f94d2fd4fbfa02226025bc9b, type: 2}
+    chance: 0.0025
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: fdf89babc95cd3448b9ce54735b93603, type: 2}
+    chance: 0.0025
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: d3f7976d1f1a7e542b0fafece26476c4, type: 2}
+    chance: 0.0025
+    minAmount: 1
+    maxAmount: 1

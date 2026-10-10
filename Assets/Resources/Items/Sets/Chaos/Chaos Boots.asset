@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939cbf25953ff594db3f1a359cd41082, type: 3}
+  m_Name: Chaos Boots
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.GearItemSO
+  uuid: 98f1ee01-f821-4877-b9ab-abb2d6bf7c4f
+  name: Chaos Boots
+  sprite: {fileID: 1407524398, guid: a07637db7816da942aa20169051421d7, type: 3}
+  description: A boot made of iron
+  price: 7500000
+  gearType: 2
+  weaponType: 0
+  statVariance:
+    minAbsolute: 400
+    maxAbsolute: 600
+    minMultiplier: 0.9
+    maxMultiplier: 1.2
+  defaultStats:
+  - type: 16
+    modifier: 0
+    value: 125000
+  - type: 0
+    modifier: 0
+    value: 1000000

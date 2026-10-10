@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Minotaur
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: 58b7afd4-6423-4d80-91e9-303befec190d
+  name: Minotaur
+  idleUp: {fileID: 7400000, guid: cef485b1359643f4c880d1507e6877ee, type: 2}
+  idleDown: {fileID: 7400000, guid: 34f3426c19b653c49aa3216ba8b6de8c, type: 2}
+  idleLeft: {fileID: 7400000, guid: 7dabe99e1b1dcdf47b0e4a3f8be5195b, type: 2}
+  idleRight: {fileID: 7400000, guid: 3b0f585c0847248408da31c3dcc317e6, type: 2}
+  moveUp: {fileID: 7400000, guid: f6f70fd847bd8174a929ca5eae7427b5, type: 2}
+  moveDown: {fileID: 7400000, guid: 2d4202d63e1e3de43a72108f47c8fba9, type: 2}
+  moveLeft: {fileID: 7400000, guid: 13e64b0a37c1c4447a2e8574ed1f309c, type: 2}
+  moveRight: {fileID: 7400000, guid: c4e2168d791bc6d4d8a37539bc4de8b5, type: 2}
+  dead: {fileID: -2066296346, guid: a07637db7816da942aa20169051421d7, type: 3}

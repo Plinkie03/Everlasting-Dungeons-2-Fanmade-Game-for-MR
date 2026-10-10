@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939cbf25953ff594db3f1a359cd41082, type: 3}
+  m_Name: Reinforced Arrow
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.GearItemSO
+  uuid: bc0e09d3-715c-45b6-8707-e7fe456350a1
+  name: Reinforced Arrow
+  sprite: {fileID: 1537633570, guid: a07637db7816da942aa20169051421d7, type: 3}
+  description: A tome for mages to do higher damage, this one is decent
+  price: 2400000
+  gearType: 5
+  weaponType: 0
+  statVariance:
+    minAbsolute: 240
+    maxAbsolute: 360
+    minMultiplier: 0.77
+    maxMultiplier: 0.95
+  defaultStats:
+  - type: 9
+    modifier: 0
+    value: 15000

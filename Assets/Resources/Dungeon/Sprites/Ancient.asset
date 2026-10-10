@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37bc097d5bcd62049adcc4d1e8468825, type: 3}
+  m_Name: Ancient
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.DungeonSpritesSO
+  uuid: c6e19bf2-32bb-4e82-a8e5-770517a6d680
+  name: Ancient
+  color: {r: 0, g: 0.058823533, b: 0.050980397, a: 0}
+  ladder: {fileID: -1889204529, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  floorSprites:
+  - {fileID: -634211728, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: 1185144322, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: -1036388300, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: -1446010178, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: -1997914848, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: 1077009772, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: 983051197, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: -2075897191, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: -1179826466, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: -634211728, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: -953923412, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: -21761518, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  decorationSprites:
+  - {fileID: 1565897955, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: 572811184, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: -968451268, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: 301495474, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: 914886376, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: -484821057, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: -1776545022, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  - {fileID: 1040622858, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  candelSprites:
+  - {fileID: -665657196, guid: 432ad9999c980394ebfa6c26aaa705ec, type: 3}
+  - {fileID: -1516585863, guid: 432ad9999c980394ebfa6c26aaa705ec, type: 3}
+  - {fileID: -823887884, guid: 432ad9999c980394ebfa6c26aaa705ec, type: 3}
+  - {fileID: -588596671, guid: 432ad9999c980394ebfa6c26aaa705ec, type: 3}
+  - {fileID: 1879155340, guid: 432ad9999c980394ebfa6c26aaa705ec, type: 3}
+  - {fileID: -1492303927, guid: 432ad9999c980394ebfa6c26aaa705ec, type: 3}
+  - {fileID: 775744656, guid: 432ad9999c980394ebfa6c26aaa705ec, type: 3}
+  wallTop: {fileID: 632671142, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  wallSideRight: {fileID: -1532143986, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  wallSideLeft: {fileID: -1532143986, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  wallBottom: {fileID: 632671142, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  wallFull: {fileID: 171158987, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  wallInnerCornerDownLeft: {fileID: -4596972127225251403, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  wallInnerCornerDownRight: {fileID: 406551859847576100, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  wallDiagonalCornerDownRight: {fileID: -999237506, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  wallDiagonalCornerDownLeft: {fileID: -999237506, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  wallDiagonalCornerUpLeft: {fileID: 406551859847576100, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}
+  wallDiagonalCornerUpRight: {fileID: -4596972127225251403, guid: 7d3521dbd84a6ba4e8b2e61174fd3e2b, type: 3}

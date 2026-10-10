@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3604654894656754541
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3130640023073536556, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+      propertyPath: tp
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130640023073536556, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+      propertyPath: npcName
+      value: Marvis
+      objectReference: {fileID: 0}
+    - target: {fileID: 3130640023073536556, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+      propertyPath: npcSprite
+      value: 
+      objectReference: {fileID: 1992337510, guid: a07637db7816da942aa20169051421d7, type: 3}
+    - target: {fileID: 3130640023073536556, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+      propertyPath: npcDescription
+      value: I can carry you to the dungeons and face the worst monsters ever!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238768570180410606, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+      propertyPath: m_Name
+      value: NPC - TP Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572486738519050020, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572486738519050020, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572486738519050020, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572486738519050020, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572486738519050020, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572486738519050020, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572486738519050020, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572486738519050020, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572486738519050020, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7572486738519050020, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4238768570180410606, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2327820743741233325}
+  m_SourcePrefab: {fileID: 100100000, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+--- !u!1 &636537007783415683 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4238768570180410606, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+  m_PrefabInstance: {fileID: 3604654894656754541}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2327820743741233325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636537007783415683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcd1d7209e6722f439c88a62e72ad7a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.Entity.Other.NPCTPBehavior
+  npc: {fileID: 1834101964217559361}
+--- !u!114 &1834101964217559361 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3130640023073536556, guid: 7b1cb6b31cf412a44a8732c5bbe3b2c0, type: 3}
+  m_PrefabInstance: {fileID: 3604654894656754541}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636537007783415683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 591ec7393320b1646811d9d340366523, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.Entity.Other.NPCBehavior

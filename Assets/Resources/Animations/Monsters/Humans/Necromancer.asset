@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Necromancer
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: 1520411b-2821-4292-91ba-9e137a38fca3
+  name: Necromancer
+  idleUp: {fileID: 7400000, guid: 4cc1491fb63f15b4abd2d246de7bcb07, type: 2}
+  idleDown: {fileID: 7400000, guid: 29fcbbeb35100e946bbcb4f0f1c42e91, type: 2}
+  idleLeft: {fileID: 7400000, guid: 785fca357899a204bafe02af096e9ac8, type: 2}
+  idleRight: {fileID: 7400000, guid: 68df85075e2ed0f428ccf0e9c57b81c7, type: 2}
+  moveUp: {fileID: 7400000, guid: aa516017e86d91e4e876c87271878788, type: 2}
+  moveDown: {fileID: 7400000, guid: b1fec99bdd385284384407a220ac3b7a, type: 2}
+  moveLeft: {fileID: 7400000, guid: 7e9e16ef2857fc34e94b77aade20bc50, type: 2}
+  moveRight: {fileID: 7400000, guid: 76e7dc645d7b5484ab958ab6aa22918d, type: 2}
+  dead: {fileID: -1265850746, guid: a07637db7816da942aa20169051421d7, type: 3}

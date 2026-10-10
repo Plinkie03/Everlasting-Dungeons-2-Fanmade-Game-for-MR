@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939cbf25953ff594db3f1a359cd41082, type: 3}
+  m_Name: Mana Staff
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.GearItemSO
+  uuid: db7589a4-c1ae-4317-8358-15f4207ce0d3
+  name: Mana Staff
+  sprite: {fileID: -491837725, guid: a07637db7816da942aa20169051421d7, type: 3}
+  description: A very ugle staff made solely of iron.
+  price: 15000
+  gearType: 4
+  weaponType: 1
+  statVariance:
+    minAbsolute: 25
+    maxAbsolute: 50
+    minMultiplier: 0.3
+    maxMultiplier: 0.5
+  defaultStats:
+  - type: 10
+    modifier: 0
+    value: 200

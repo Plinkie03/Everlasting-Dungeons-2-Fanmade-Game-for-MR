@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a0b82ca1c993d47b349875f528b881, type: 3}
+  m_Name: Health Flagon
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.Consumables.PotionItemSO
+  uuid: 3e7a3dc1-ebfe-4e36-95f8-22b3eb03912f
+  name: Health Flagon
+  sprite: {fileID: -580299982, guid: a07637db7816da942aa20169051421d7, type: 3}
+  description: A flagon that heals way even more HP
+  price: 45000
+  consume: 1
+  cooldown: 7000
+  manaRegen: 0
+  healthRegen: 50000000

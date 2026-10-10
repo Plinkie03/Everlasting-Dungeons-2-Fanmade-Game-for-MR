@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e27476aa026fea4e8bddcf349ad6999, type: 3}
+  m_Name: Golden Set
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.CollectionItemDropSO
+  uuid: 6ba993ec-7b0b-4017-bad1-7bc8f8b98242
+  name: Golden Set
+  drops:
+  - item: {fileID: 11400000, guid: 08f3c7499c2d0c04abecf4f99e9b836d, type: 2}
+    chance: 0.0012
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 9b9f2807af2bf1d409ad5f7dd898902c, type: 2}
+    chance: 0.0012
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 03729f89fe8d2764a9f1673ee635da7c, type: 2}
+    chance: 0.0012
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 6a3a940e9a722b74a86f9de79026c3c6, type: 2}
+    chance: 0.0012
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 0017bb9ab71b4c94f8ca7065835983fc, type: 2}
+    chance: 0.0012
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: f75984c3ac0c52a4b93ed8b05aa759a7, type: 2}
+    chance: 0.0012
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 5f29f9c5abdfbdd46b27d3b6e75f526a, type: 2}
+    chance: 0.0012
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 51ee9cc0367a66b4b8bfaa0c734717ec, type: 2}
+    chance: 0.0012
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: f8382d86abd10df4ea49e3a002b0ad27, type: 2}
+    chance: 0.0012
+    minAmount: 1
+    maxAmount: 1
+  - item: {fileID: 11400000, guid: 30740f4e61a6efa4e904859449bf1e47, type: 2}
+    chance: 0.0012
+    minAmount: 1
+    maxAmount: 1

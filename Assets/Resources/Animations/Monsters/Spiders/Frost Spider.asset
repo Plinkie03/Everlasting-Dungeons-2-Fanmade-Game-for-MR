@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Frost Spider
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: 0f0efa0a-8910-4d67-94df-5da090677431
+  name: Frost Spider
+  idleUp: {fileID: 7400000, guid: 381f63a611edad245992c2d420b6bcce, type: 2}
+  idleDown: {fileID: 7400000, guid: 704dea3c9ef8f4e4087d1e57a386e562, type: 2}
+  idleLeft: {fileID: 7400000, guid: c42db42613d937f42a5d4d27c629517e, type: 2}
+  idleRight: {fileID: 7400000, guid: bd74d5fb181825443a46d5e847b0a390, type: 2}
+  moveUp: {fileID: 7400000, guid: 4198cfda5927571449f1816e2fd62d8c, type: 2}
+  moveDown: {fileID: 7400000, guid: 6bef9f77f29fb7f4297ca9217100be5c, type: 2}
+  moveLeft: {fileID: 7400000, guid: 1aaa670548ab96541bab95080b8308cc, type: 2}
+  moveRight: {fileID: 7400000, guid: 2d72c70125cf38c47ac6d1bba0e89f8f, type: 2}
+  dead: {fileID: 466175139, guid: a07637db7816da942aa20169051421d7, type: 3}

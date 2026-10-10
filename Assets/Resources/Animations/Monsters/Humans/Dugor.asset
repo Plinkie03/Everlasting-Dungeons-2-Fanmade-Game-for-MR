@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Dugor
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: e81f039b-7f8e-4b24-bb43-b04f80db87e4
+  name: Dugor
+  idleUp: {fileID: 7400000, guid: 5872b25a19a4e0a458d0b6c3f53379ed, type: 2}
+  idleDown: {fileID: 7400000, guid: cb9a67ed00a681840bd7f569e389976f, type: 2}
+  idleLeft: {fileID: 7400000, guid: 35eb8b31343919c498aa8bd1052d2e00, type: 2}
+  idleRight: {fileID: 7400000, guid: 5a399905d6aee794ca27095f02fd79e8, type: 2}
+  moveUp: {fileID: 7400000, guid: 2c608d9c914f9574a97cc8456ede6070, type: 2}
+  moveDown: {fileID: 7400000, guid: b642f9c7a51bfb54ca564634df439059, type: 2}
+  moveLeft: {fileID: 7400000, guid: 608c621e003fd81409e32a3b60ec881a, type: 2}
+  moveRight: {fileID: 7400000, guid: 93ab9d9057f741041ba3423f71cb5178, type: 2}
+  dead: {fileID: -354861423, guid: a07637db7816da942aa20169051421d7, type: 3}

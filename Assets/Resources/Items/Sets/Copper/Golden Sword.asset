@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939cbf25953ff594db3f1a359cd41082, type: 3}
+  m_Name: Golden Sword
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.GearItemSO
+  uuid: ee25a221-074d-4fdb-82ee-a5e601568df8
+  name: Golden Sword
+  sprite: {fileID: 307754331, guid: a07637db7816da942aa20169051421d7, type: 3}
+  description: A very ugle sword made solely of iron.
+  price: 1000
+  gearType: 4
+  weaponType: 0
+  statVariance:
+    minAbsolute: 5
+    maxAbsolute: 20
+    minMultiplier: 0.18
+    maxMultiplier: 0.28
+  defaultStats:
+  - type: 11
+    modifier: 0
+    value: 20

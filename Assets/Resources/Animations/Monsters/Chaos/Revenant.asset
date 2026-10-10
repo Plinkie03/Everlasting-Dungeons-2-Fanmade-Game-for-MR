@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Revenant
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: b386b80b-4995-48d1-8559-0916b276dc51
+  name: Revenant
+  idleUp: {fileID: 7400000, guid: 9ba1855a77373744fb3f003215eb517f, type: 2}
+  idleDown: {fileID: 7400000, guid: 4527e5c3edf4d314e9ade13e8a7ceb30, type: 2}
+  idleLeft: {fileID: 7400000, guid: 65170ca343e42c5489d1ed7dd3eb513b, type: 2}
+  idleRight: {fileID: 7400000, guid: 527863db7522624469e27bf1480ab866, type: 2}
+  moveUp: {fileID: 7400000, guid: 27d541b5198221a4598c3261d4a6f940, type: 2}
+  moveDown: {fileID: 7400000, guid: 19e451cb8d492c34d9b8442b48e29285, type: 2}
+  moveLeft: {fileID: 7400000, guid: db016a3769017e84593c457aca0e4159, type: 2}
+  moveRight: {fileID: 7400000, guid: 10be8ee0d126a8546a355ffb74e5726b, type: 2}
+  dead: {fileID: 170297164, guid: a07637db7816da942aa20169051421d7, type: 3}

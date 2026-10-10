@@ -1,0 +1,330 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5519890640926180703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8122021852932284525}
+  - component: {fileID: 5117564785510254591}
+  - component: {fileID: 1933605416473061903}
+  m_Layer: 0
+  m_Name: AI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8122021852932284525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5519890640926180703}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.27499998, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5266132691578646615}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5117564785510254591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5519890640926180703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53ce4d2883408440a5189a95b4ad1c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.Entity.Monster.MonsterAI
+  monster: {fileID: 5851473720779760713}
+  seeker: {fileID: 1933605416473061903}
+--- !u!114 &1933605416473061903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5519890640926180703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 373b52eb9bf8c40f785bb6947a1aee66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AstarPathfindingProject::Pathfinding.Seeker
+  version: 1
+  drawGizmos: 1
+  detailedGizmos: 0
+  startEndModifier:
+    addPoints: 0
+    exactStartPoint: 3
+    exactEndPoint: 3
+    useRaycasting: 0
+    mask:
+      serializedVersion: 2
+      m_Bits: 4294967295
+    useGraphRaycasting: 0
+  traversableTags: -1
+  tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  graphMask:
+    value: -1
+--- !u!1001 &4179447782593036588
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1165868983318984923, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_Name
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 2375193339063378881, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: entity
+      value: 
+      objectReference: {fileID: 5851473720779760713}
+    - target: {fileID: 3336796905243141789, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 8cfc74a870f534c4b9985628b296dd15, type: 3}
+    - target: {fileID: 5018459812181394400, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: entity
+      value: 
+      objectReference: {fileID: 5851473720779760713}
+    - target: {fileID: 5984514584574038161, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 8aadbff430137ca4ca744fc7b68fa613, type: 3}
+    - target: {fileID: 5997810947378370549, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: fed115d81e9d44946aae2d869f746ba3, type: 3}
+    - target: {fileID: 6331795313544715642, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331795313544715642, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6918778682798345757, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6977991138396740352, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 323cdbcf866bfc145ad3502027fe0abb, type: 3}
+    - target: {fileID: 7009946448150308940, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 94b6911ee8877e949b32860d3a073a3a, type: 3}
+    - target: {fileID: 7444285054684062711, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 547b88da7c9dfce4caff01b8f40064e5, type: 3}
+    - target: {fileID: 7792369933359315371, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: b0f22c992404d1b4aad057e2e36cfb52, type: 3}
+    - target: {fileID: 7795598666240604080, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: entity
+      value: 
+      objectReference: {fileID: 5851473720779760713}
+    - target: {fileID: 8292655602159415675, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.76215
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292655602159415675, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.28303
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292655602159415675, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292655602159415675, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292655602159415675, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292655602159415675, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292655602159415675, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292655602159415675, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292655602159415675, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8292655602159415675, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7795598666240604080, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8292655602159415675, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8122021852932284525}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1165868983318984923, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5851473720779760713}
+    - targetCorrespondingSourceObject: {fileID: 1929539486789566450, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8852667512073398261}
+    - targetCorrespondingSourceObject: {fileID: 3285502786347519697, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 599780799555809908}
+    - targetCorrespondingSourceObject: {fileID: 8505307375903713032, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3163701412964845345}
+  m_SourcePrefab: {fileID: 100100000, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+--- !u!1 &1700129737940946941 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3285502786347519697, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+  m_PrefabInstance: {fileID: 4179447782593036588}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &599780799555809908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700129737940946941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5a21f8807dcc604eadf1403764bb881, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.Entity.Monster.MonsterModdedStats
+  monster: {fileID: 5851473720779760713}
+--- !u!114 &1942740687506088685 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2375193339063378881, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+  m_PrefabInstance: {fileID: 4179447782593036588}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268ab0bb580a61d408a85b50491bd518, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.Entity.Base.EntityAnimator
+--- !u!1 &2361988943369404126 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1929539486789566450, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+  m_PrefabInstance: {fileID: 4179447782593036588}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8852667512073398261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2361988943369404126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fee8574fe18c37e4fb71c1d181b57b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.Entity.Monster.MonsterBaseStats
+  monster: {fileID: 5851473720779760713}
+--- !u!4 &2931885243219259523 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1346654925585363375, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+  m_PrefabInstance: {fileID: 4179447782593036588}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3039259272331344375 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1165868983318984923, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+  m_PrefabInstance: {fileID: 4179447782593036588}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5851473720779760713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3039259272331344375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ceb11d65892c7e47a0b486601b5610a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.Entity.Monster.MonsterBehavior
+  animator: {fileID: 1942740687506088685}
+  gui: {fileID: 9197835885446808268}
+  health: 0
+  mana: 0
+  walkSound: {fileID: 0}
+  basicHitSounds: {fileID: 2931885243219259523}
+  damagedSounds: {fileID: 4354972716935912897}
+  specialAttackSounds: {fileID: 8853913894796956375}
+  data: {fileID: 0}
+  baseStats: {fileID: 8852667512073398261}
+  moddedStats: {fileID: 599780799555809908}
+  ai: {fileID: 5117564785510254591}
+  attackHandler: {fileID: 3163701412964845345}
+  level: 1
+--- !u!4 &4354972716935912897 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 463757518661426413, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+  m_PrefabInstance: {fileID: 4179447782593036588}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5266132691578646615 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8292655602159415675, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+  m_PrefabInstance: {fileID: 4179447782593036588}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5478781107061171748 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8505307375903713032, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+  m_PrefabInstance: {fileID: 4179447782593036588}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3163701412964845345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5478781107061171748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79257f33eb7b3c643a448f4f3baf5c59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.Entity.Monster.MonsterAttackHandler
+  entity: {fileID: 5851473720779760713}
+  monster: {fileID: 5851473720779760713}
+--- !u!4 &8853913894796956375 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4674466327103280123, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+  m_PrefabInstance: {fileID: 4179447782593036588}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9197835885446808268 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5018459812181394400, guid: 15257791b1a79184f92212bcae7772cc, type: 3}
+  m_PrefabInstance: {fileID: 4179447782593036588}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a325935d276f45949b0fc77c174daf9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.Entity.Base.EntityGUI

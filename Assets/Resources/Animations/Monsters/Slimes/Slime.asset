@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Slime
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: a43f4b16-fd78-4970-90d2-9733d2adc5d2
+  name: Slime
+  idleUp: {fileID: 7400000, guid: cdf1ba0d65e21e4438774664924a7b0e, type: 2}
+  idleDown: {fileID: 7400000, guid: 7867ec49b81eed240aa2273f2dfd6b08, type: 2}
+  idleLeft: {fileID: 7400000, guid: 321e0617e7428fc4591ce0b33fdf9976, type: 2}
+  idleRight: {fileID: 7400000, guid: e262ed4eb0d87464f961d1608ba4cd23, type: 2}
+  moveUp: {fileID: 7400000, guid: 5b479818c8ddbde47bcc0fb59a75202f, type: 2}
+  moveDown: {fileID: 7400000, guid: b1f962f85ef1e2b44943fc9a807c1d91, type: 2}
+  moveLeft: {fileID: 7400000, guid: e975899f70ab6ba47a285eb3991b2b03, type: 2}
+  moveRight: {fileID: 7400000, guid: 793965fc7ec4f2f4db665ee977888772, type: 2}
+  dead: {fileID: -1930798611, guid: a07637db7816da942aa20169051421d7, type: 3}

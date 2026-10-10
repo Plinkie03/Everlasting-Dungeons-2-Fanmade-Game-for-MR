@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Shambler
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: 2142ad55-6745-4475-a7b5-55e3328582cb
+  name: Shambler
+  idleUp: {fileID: 7400000, guid: adf6e353105737240b926693b104ded9, type: 2}
+  idleDown: {fileID: 7400000, guid: 4178581fce8e19840b203e930e385d46, type: 2}
+  idleLeft: {fileID: 7400000, guid: 6b6f908b55e19584284b2e18bdcd73c8, type: 2}
+  idleRight: {fileID: 7400000, guid: abbfb8a967d64c042b3b4d143ebbd6ad, type: 2}
+  moveUp: {fileID: 7400000, guid: 32d5bdeeba9979840bb7df95d4e92e2a, type: 2}
+  moveDown: {fileID: 7400000, guid: 918e21fa65bdd14489a36271849fb418, type: 2}
+  moveLeft: {fileID: 7400000, guid: 7f0a9a9ccb48d1a4e924d71805f1099d, type: 2}
+  moveRight: {fileID: 7400000, guid: 726534f956da5424d8cf51a8c2329063, type: 2}
+  dead: {fileID: 2034571561, guid: a07637db7816da942aa20169051421d7, type: 3}

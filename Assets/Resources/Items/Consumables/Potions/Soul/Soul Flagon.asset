@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9a0b82ca1c993d47b349875f528b881, type: 3}
+  m_Name: Soul Flagon
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.Consumables.PotionItemSO
+  uuid: d9842283-c72d-42e1-87c9-2ba75e936611
+  name: Soul Flagon
+  sprite: {fileID: -399099044, guid: a07637db7816da942aa20169051421d7, type: 3}
+  description: A flagon that heals way even more MP&HP
+  price: 18000
+  consume: 1
+  cooldown: 7000
+  manaRegen: 10000
+  healthRegen: 10000

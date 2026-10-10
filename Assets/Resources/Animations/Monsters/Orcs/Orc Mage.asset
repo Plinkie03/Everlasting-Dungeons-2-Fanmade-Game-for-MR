@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abbdfd5bf9139544caaafa9294239f33, type: 3}
+  m_Name: Orc Mage
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.EverlastingDungeons.Scripts.ScriptableObjects.EntityAnimationsSO
+  uuid: c24a81f5-7aa2-48f5-a774-8396f84e336c
+  name: Orc Mage
+  idleUp: {fileID: 7400000, guid: bfe88f456cec33a4aad44cddc30eddfb, type: 2}
+  idleDown: {fileID: 7400000, guid: 4f682fb65fd609b469257265e4356a86, type: 2}
+  idleLeft: {fileID: 7400000, guid: 6ee78ae11cee0a343a2c215b972470da, type: 2}
+  idleRight: {fileID: 7400000, guid: 671b85e2e887da14183892d4766b3088, type: 2}
+  moveUp: {fileID: 7400000, guid: 9f0bfbad776e3c74086bdd293ce259e4, type: 2}
+  moveDown: {fileID: 7400000, guid: 44d88160225677d41b54e598a0960316, type: 2}
+  moveLeft: {fileID: 7400000, guid: b376d135e3e3a974cbb1d60bbcdbe634, type: 2}
+  moveRight: {fileID: 7400000, guid: ea341ba388bddd24285f2349500b7e2e, type: 2}
+  dead: {fileID: -1627453807, guid: a07637db7816da942aa20169051421d7, type: 3}
